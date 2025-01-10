@@ -1,0 +1,68 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f0f0f0 0%, #cce6ff 100%);
+    font-family: 'Arial', sans-serif;
+}
+
+/* Container */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    width: 80%;
+    max-width: 1000px;
+    text-align: center;
+}
+
+/* Title */
+#container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Controls */
+#controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+label {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #555;
+}
+
+input[type=range] {
+    width: 300px;
+    background: linear-gradient(90deg, #4a90e2, #007acc);
+    height: 8px;
+    border-radius: 5px;
+}
+
+/* Canvas styling */
+#waveCanvas {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    width: 100%;
+    max-width: 1000px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
